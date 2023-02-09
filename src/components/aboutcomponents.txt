@@ -1,0 +1,18 @@
+Components:-
+A Component is one of the 
+core building blocks of React. In other
+words, we can say that every application
+you will develop in React will be made up 
+of pieces called components. Components make the
+task of building UIs much easier. You can see a 
+UI broken down into multiple individual pieces 
+called components and work on them independently 
+and merge them all in a parent component which will be your final UI.
+Components can be nested inside one another
+
+=> we mainly have two types of components: 
+1. functional component
+2. class component
+
+both of them are explained and implemented
+in components folder
