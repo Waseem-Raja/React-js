@@ -5,7 +5,7 @@ input called props(properties) and return HTML(jsx) which
 describes the UI
 */
 //using arrow function
-const Hello=()=> <h1>Hello World</h1>;
+const Hello=()=> <h1>Learning functional components</h1>;
 
 //using normal funciton
 /*function Hello(){
@@ -18,6 +18,7 @@ export default Hello;
 //default indicates you can import
 //  and rename Hello component  anywhere now
 
+/*
 //jsx is a syntex extension to js and it comes
 // with  full power of js
 //we can combine js logic with these html tags using jsx
@@ -30,4 +31,4 @@ function Name(){
 
 function hay(){
     return "waseem"
-}
+}*/

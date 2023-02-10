@@ -1,0 +1,14 @@
+PROPS:-
+the props are a type of object
+where the value of attributes of a tag is stored.
+
+props are Read-only || immutable
+i.e we can modfiy or change a value in props object
+that's why we say
+All React components must act like pure functions with respect to their props.
+here pure  functions means which can't alter their inputs
+they will provide same output  for the same input always
+
+//well we can say its a limitation or you know behaviour
+or properties of props.
+
