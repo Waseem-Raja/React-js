@@ -8,7 +8,16 @@ that's why we say
 All React components must act like pure functions with respect to their props.
 here pure  functions means which can't alter their inputs
 they will provide same output  for the same input always
+example:
+//say if passed key value is name="waseem"
+function hay(props){
 
-//well we can say its a limitation or you know behaviour
+here if i try to change the value of any key in the props object
+it won't work
+like props.name="ariF" //this is wrong as props are immutable
+    return <h1>hello {props.name}<h1/>
+}
+
+//well we can say its a limitation or you can say behaviour
 or properties of props.
 
