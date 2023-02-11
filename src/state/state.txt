@@ -1,0 +1,11 @@
+//to overcome the immutablity of  props we use state
+//so that we can make changes dynamically in a component
+State is just like props not actually
+but its also an object which is contained in a
+component rather then passing to component just like props
+=> a state holds information and that information may 
+change over the life time of 
+that component
+=> they are just like variables decleard in the function  body
+=> in class component we can acess them using this.varname;
+and in functional component we use "useState hook"
