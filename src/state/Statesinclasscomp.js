@@ -1,5 +1,5 @@
 import { Component } from "react";
-class Stateexample extends Component{
+class Stateinclasscompexample extends Component{
     constructor(){
         super();
         this.state={
@@ -23,6 +23,7 @@ class Stateexample extends Component{
     //   we can return only single tag
         return <div>
               
+        <h1>State in class component</h1>
         <h1>Counter value : {this.state.counter} </h1>
         <button onClick={()=>this.incrementCounter()}>incrementCounter</button>
         <button onClick={()=>this.decrementCounter()}>decrementCounter</button>
@@ -32,4 +33,4 @@ class Stateexample extends Component{
 }
 
 //exporting it
-export default Stateexample;
+export default Stateinclasscompexample;
